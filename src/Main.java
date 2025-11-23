@@ -7,7 +7,7 @@ Scanner inputText = new Scanner(System.in);
 while (true) {
     IO.println("What is your sentence?");
     String sentence = inputText.nextLine();
-    if (sentence == null || sentence.equals("") || sentence.length() == 0) {
+    if (sentence == null || sentence.isEmpty()) {
         IO.println("Invalid sentence!\n");
 
     }else{
