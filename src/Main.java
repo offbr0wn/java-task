@@ -12,7 +12,7 @@ while (true) {
 
     }else{
         IO.println("Original Sentence: " + sentence);
-        IO.println("Substring Sentence: " +sentence.substring(5, sentence.length()-1));
+        IO.println("Substring Sentence: " +sentence.substring(1, sentence.length()-1));
         IO.println("Uppercase Sentence: " +sentence.toUpperCase());
         break;
     }
